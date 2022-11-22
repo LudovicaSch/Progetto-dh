@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="it-IT">
+	<head>
+		<title>Philosorix</title>
+		<meta charset="UTF-8">
+		<!-- responsive web design metaproperty per adeguare device con bootstrap-->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="DC.Title" content="Philosorix">
+    <meta name="DC.Creator" content="Ludovica Schifano">
+    <meta name="DC.Subject" content="La filosofia del Rinascimento">
+    <meta name="DC.Description" content="Philosorix offre la possibilità di esplorare le opere dei filosofi rinascimentali e la cultura a loro coeva">
+    <meta name="DC.Publisher"
+        content="Alma Mater Studiorum, Università di Bologna">
+    <meta name="DC.Contributor"
+        content="Ludovica Schifano">
+    <meta name="DC.Date" content="22/11/22">
+    <meta name="DC.Type" content="Sito web">
+    <meta name="DC.Format" content="HTML/CSS/JS">
+    <link rel="DC.Identifier" href="https://www.nomedelsitoweb.github.io">
+    <meta name="DC.Source" content="mappe, timelines, tag cloud, grafi, diagrammi, collegamenti con altre risorse, annotazioni e commenti, analisi del testo, strumenti integrativi di accesso ai contenuti">
+    <meta name="DC.Language" content="it">
+    <meta name="DC.Relation"
+        content="ISBN, ICCU, EAD, FRBR">
+    <link rel="DC.Coverage"
+        href="World, Europe, Italy, Emilia-Romagna, Bologna province">
+    <meta name="DC.Rights"
+        content="CC BY-NC">
+    <!-- il titolo del sito riportato all'interno del tag title compare nella finestra del browser -->
+		<!-- elemento link è elem  vuoto che mi serve per richiamare altre risorse esterne che voglio far dialogare con il mio sito tipicamente fogli di stile, script, framework come gestione bootstrap framework professionali per gestione pag web  collega pagina ad altre risorse fra cui anche le icone + rel supporta la tipologia di oggetto che voglio linkare + href è url-->
+		
+		
+		<link rel="icon" type="image/x-icon" href="favicon.ico">
+		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="stile/stile.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<!-- database strutt tabellare con campi che rappresentano la definizione dei campi degli attributi della tabella nella prima riga e poi serie valori campi associati nelle righe successive attributi e valori tr riga all'interno celle th -->
+
+		</head>
+
+	<!-- ricorda se name { }   se id # { }  se class . {}  -->
+	<!-- elemento div come elem block fa andare a capo e elemento span come elemento inline --> <!-- testata + barra navigazione sono elementi semantici + slideshow carousel strutturare concettualmente il contenuto -->
+
+
+
+	<body>	
+			
+		<header> 
+			<span id="top"></span>
+				<div class="container-header">
+				 <img src="img/piet.png" width="100" title="Immagine pietra filosofale" alt="Immagine pietra filosofale">
+				<h1>Philosorix</h1>
+							
+			</div>		
+
+			</header>
+					
+			
+<!-- ho tolto br così è attaccata navbar a head -->
+
+<!-- ho messo bacground black perchè senno scompariva navbar compariva solo quando passavo sopra mouse -->
+
+<!-- class valore class fa condividere set proprietà certe caratt da + contenuti elem del mio pagina/ id univocamente + creare collegamenti interni come il torna su -->
+
+<!-- span id e poi sotto img src e lo facciamo diventare link tramite a href  -->
+<!-- iframe incorpora pag html dentro pg html embeddare mappa, youtube < per quanto riguarda mappa condividi>incorporare una mappa>copia html con p prima -->
+
+
+<!-- item o come tabella o con h2>xml -->
+<!-- p poi a href xml/item  xml ben formato con vocabolario che decido con nomi descrittori html item e dc con descrittori dc -->
+<!-- div una di fianco all'altra -->
+<navbar>
+	<nav class="navbar navbar-expand-lg bg-dark fs-5 navbar-dark">
+  <div class="container-fluid">
+
+    <a class="navbar-brand" href="#" title="Home">Home</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+      
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">      
+         
+        <li class="nav-item dropdown">
+          <a class="nav-link" href="#"  role="button" data-bs-toggle="dropdown" title="Catalogo">Catalogo</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="lista.html">Lista</a></li>
+            <li><a class="dropdown-item" href="#">Autori</a></li>
+            <li><a class="dropdown-item" href="#">Generi</a></li>
+            <li><a class="dropdown-item" href="#">Tipologia</a></li>
+          </ul>
+        </li>
+     <!-- ho tolto a tutti dropdown toggle che sarebbe la linguetta per i link -->   
+        <li class="nav-item dropdown">
+          <a class="nav-link" href="#" title="Luoghi" role="button" data-bs-toggle="dropdown">Categorie</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Date</a></li>
+            <li><a class="dropdown-item" href="#">Luoghi</a></li>            
+          </ul>
+        </li>
+        
+        <li class="nav-item dropdown">
+          <a class="nav-link" href="#" title="Contatti" role="button" data-bs-toggle="dropdown">Contatti</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Chi siamo</a></li>
+            <li><a class="dropdown-item" href="#">Info</a></li>
+            <li><a class="dropdown-item" href="#">Scrivici</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    
+    <form class="d-flex">
+        <input class="form-control me-2" type="text" placeholder="Cerca...">
+        <button class="btn btn-primary" type="button">Cerca...</button>
+      </form>
+
+     </div>
+    </nav>
+ </navbar>
+
+<main class="pt-1">
+ <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+  <!-- Indicators/dots -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+  </div>
+  
+  <!-- The slideshow/carousel -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/trefilosofi.jpeg" alt="Tre filosofi" class="d-block" style="width:100%" width="400" height="700">
+      <div class="carousel-caption">
+
+        <h1><img src="img/piet.png" width="100" title="Philosorix" alt="Immagine pietra filosofale">Philosorix</h1>
+        <h3 class="text-white-50">La filosofia del Rinascimento</h3>
+         <button type="button" class="btn btn-blue">Scopri il progetto</button>
+        <a href="#progetto" class="btn btn-blue"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z"/>
+</svg></a>
+        <p class="text-white-50 mt-4"><em>Immagine: dipinto a tela "I tre filosofi", Giorgione, 1509, conservata presso Kunsthistorisches Museum, Vienna</p>
+      </div>
+    </div>
+    
+      
+    <div class="carousel-item">
+      <img src="img/lacittadelsole.jpeg" alt="Opere" title="Cerca per opere" class="d-block" style="width:100%" width="400" height="700">
+      <div class="carousel-caption">
+        <h3 class="text-light">Cerca per opere</h3>   
+        <button type="button" class="btn btn-blue">Scopri le opere</button>
+        <button type="button" class="btn btn-red"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-book" viewBox="0 0 16 16">
+  <path d="M1 2.828c.885-.37 2.154-.769 3.388-.893 1.33-.134 2.458.063 3.112.752v9.746c-.935-.53-2.12-.603-3.213-.493-1.18.12-2.37.461-3.287.811V2.828zm7.5-.141c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492V2.687zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783z"/>
+</svg></button>
+        <p class="text-white-50 mt-4">Immagine: <em>Tránsito espiral,</em> Remedios Varo (1918-1963). Questa forma architettonica a spirale rimanda al pensiero utopistico dell'opera <em>La città del sole</em>di Tommaso Campanella, stampata nel 1623 a Francoforte</p>
+      </div> 
+    </div>
+
+    <div class="carousel-item">
+      <img src="img/saturno.jpeg" alt="Date" title="Cerca per date" class="d-block" style="width:100%" width="400" height="700">
+      <div class="carousel-caption">       
+        <h3 class="text-white">Cerca per date</h3>
+        <button type="button" class="btn btn-blue">Scopri le date</button>
+
+        <button type="button" class="btn btn-purple"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-hourglass" viewBox="0 0 16 16">
+  <path d="M2 1.5a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-1v1a4.5 4.5 0 0 1-2.557 4.06c-.29.139-.443.377-.443.59v.7c0 .213.154.451.443.59A4.5 4.5 0 0 1 12.5 13v1h1a.5.5 0 0 1 0 1h-11a.5.5 0 1 1 0-1h1v-1a4.5 4.5 0 0 1 2.557-4.06c.29-.139.443-.377.443-.59v-.7c0-.213-.154-.451-.443-.59A4.5 4.5 0 0 1 3.5 3V2h-1a.5.5 0 0 1-.5-.5zm2.5.5v1a3.5 3.5 0 0 0 1.989 3.158c.533.256 1.011.791 1.011 1.491v.702c0 .7-.478 1.235-1.011 1.491A3.5 3.5 0 0 0 4.5 13v1h7v-1a3.5 3.5 0 0 0-1.989-3.158C8.978 9.586 8.5 9.052 8.5 8.351v-.702c0-.7.478-1.235 1.011-1.491A3.5 3.5 0 0 0 11.5 3V2h-7z"/>
+</svg></button>
+        <p class="text-white-50 mt-4">Immagine: Saturno padrone del tempo, 1470 Cristoforo de Predis, miniatura su pergamena tratta dal codice De sphaera, conservato presso la biblioteca estense di Ferrara</p>
+      </div> 
+    </div>
+
+    <div class="carousel-item">
+      <img src="img/europa.jpeg" alt="Luoghi" title="Cerca per luoghi" class="d-block" style="width:100%" width="400" height="700">
+      <div class="carousel-caption">        
+        <h3 class="text-white">Cerca per luoghi</h3>
+        <button type="button" class="btn btn-blue">Scopri i luoghi</button>
+        <button type="button" class="btn btn-green"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-globe" viewBox="0 0 16 16">
+  <path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm7.5-6.923c-.67.204-1.335.82-1.887 1.855A7.97 7.97 0 0 0 5.145 4H7.5V1.077zM4.09 4a9.267 9.267 0 0 1 .64-1.539 6.7 6.7 0 0 1 .597-.933A7.025 7.025 0 0 0 2.255 4H4.09zm-.582 3.5c.03-.877.138-1.718.312-2.5H1.674a6.958 6.958 0 0 0-.656 2.5h2.49zM4.847 5a12.5 12.5 0 0 0-.338 2.5H7.5V5H4.847zM8.5 5v2.5h2.99a12.495 12.495 0 0 0-.337-2.5H8.5zM4.51 8.5a12.5 12.5 0 0 0 .337 2.5H7.5V8.5H4.51zm3.99 0V11h2.653c.187-.765.306-1.608.338-2.5H8.5zM5.145 12c.138.386.295.744.468 1.068.552 1.035 1.218 1.65 1.887 1.855V12H5.145zm.182 2.472a6.696 6.696 0 0 1-.597-.933A9.268 9.268 0 0 1 4.09 12H2.255a7.024 7.024 0 0 0 3.072 2.472zM3.82 11a13.652 13.652 0 0 1-.312-2.5h-2.49c.062.89.291 1.733.656 2.5H3.82zm6.853 3.472A7.024 7.024 0 0 0 13.745 12H11.91a9.27 9.27 0 0 1-.64 1.539 6.688 6.688 0 0 1-.597.933zM8.5 12v2.923c.67-.204 1.335-.82 1.887-1.855.173-.324.33-.682.468-1.068H8.5zm3.68-1h2.146c.365-.767.594-1.61.656-2.5h-2.49a13.65 13.65 0 0 1-.312 2.5zm2.802-3.5a6.959 6.959 0 0 0-.656-2.5H12.18c.174.782.282 1.623.312 2.5h2.49zM11.27 2.461c.247.464.462.98.64 1.539h1.835a7.024 7.024 0 0 0-3.072-2.472c.218.284.418.598.597.933zM10.855 4a7.966 7.966 0 0 0-.468-1.068C9.835 1.897 9.17 1.282 8.5 1.077V4h2.355z"/>
+</svg></button>
+        <p class="text-white-50 mt-4">Immagine: Carte d'Europa del 1572 del cartografo Abramo Ortelio (1527-1598)</p>
+      </div>  
+    </div>
+  </div>
+  
+  <!-- Left and right controls/icons -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+</main>
+
+
+
+
+ <main class="pt-2" id="progetto">
+ 	<section class="container-fluid pb-5 pr-5">
+ 	
+				<p class="text-justify my-4"><em>Philosorix</em> è un progetto divulgativo ed enciclopedico del corso di Digital Humanities dell'Università di Bologna. Il suo intento è quello di raccogliere, approfondire ed illustrare le tipologie di opere filosofiche del periodo rinascimentale e la cultura ad esse coeve possedute e preservate presso gli istituti culturali e di conservazione europei. Gli oggetti del patrimonio potranno essere visualizzati tramite un catalogo relativo alle <span style="color:red">opere</span>, alla <span style="color:purple">data</span> e ai <span style="color:green">luoghi</span>, provvisto di funzionalità quali mappe concettuali, una linea del tempo, ed infine una mappa geografica. Inoltre è presente un indice attraverso il quale scandagliare i <a href="temi" style="color:orange">temi</a> e gli <a href="#autori" style="color:dodgerblue">autori</a> più rappresentativi del periodo rinascimentale, trasmessi da varie <span style="color:yellow">tipologie di supporti</span>.</p>
+				
+							
+						
+					</div>
+				</section>	
+
+
+<section class="container-fluid background-costellazioni pb-5 pr-5">
+	<div class="container">
+  <!-- Stack the columns on mobile by making one full-width and the other half-width -->
+ <div class="row">
+ 	<div class="col-md-3"><img src="img/medaglione.jpeg" width=100%>
+ 		<button class="btn btn-yellow" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop"></button>
+
+<div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+  <div class="offcanvas-header">
+    <h5 id="offcanvasTopLabel">Immagine:</h5>
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    Il medaglione contenente il ritratto di Giulio Cesare Vanini e la piccola effigie di Martin Lutero sotto il mento del Vanini, scoperta solo nel 1991
+  </div>
+</div>
+  </div>
+
+
+    <div class="col-md-3"></div>
+    <div class="col-md-3"></div>
+    <div class="col-md-3"><img src="img/int.jpeg" width=100%><button class="btn btn-green" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-globe" viewBox="0 0 16 16">
+  <path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm7.5-6.923c-.67.204-1.335.82-1.887 1.855A7.97 7.97 0 0 0 5.145 4H7.5V1.077zM4.09 4a9.267 9.267 0 0 1 .64-1.539 6.7 6.7 0 0 1 .597-.933A7.025 7.025 0 0 0 2.255 4H4.09zm-.582 3.5c.03-.877.138-1.718.312-2.5H1.674a6.958 6.958 0 0 0-.656 2.5h2.49zM4.847 5a12.5 12.5 0 0 0-.338 2.5H7.5V5H4.847zM8.5 5v2.5h2.99a12.495 12.495 0 0 0-.337-2.5H8.5zM4.51 8.5a12.5 12.5 0 0 0 .337 2.5H7.5V8.5H4.51zm3.99 0V11h2.653c.187-.765.306-1.608.338-2.5H8.5zM5.145 12c.138.386.295.744.468 1.068.552 1.035 1.218 1.65 1.887 1.855V12H5.145zm.182 2.472a6.696 6.696 0 0 1-.597-.933A9.268 9.268 0 0 1 4.09 12H2.255a7.024 7.024 0 0 0 3.072 2.472zM3.82 11a13.652 13.652 0 0 1-.312-2.5h-2.49c.062.89.291 1.733.656 2.5H3.82zm6.853 3.472A7.024 7.024 0 0 0 13.745 12H11.91a9.27 9.27 0 0 1-.64 1.539 6.688 6.688 0 0 1-.597.933zM8.5 12v2.923c.67-.204 1.335-.82 1.887-1.855.173-.324.33-.682.468-1.068H8.5zm3.68-1h2.146c.365-.767.594-1.61.656-2.5h-2.49a13.65 13.65 0 0 1-.312 2.5zm2.802-3.5a6.959 6.959 0 0 0-.656-2.5H12.18c.174.782.282 1.623.312 2.5h2.49zM11.27 2.461c.247.464.462.98.64 1.539h1.835a7.024 7.024 0 0 0-3.072-2.472c.218.284.418.598.597.933zM10.855 4a7.966 7.966 0 0 0-.468-1.068C9.835 1.897 9.17 1.282 8.5 1.077V4h2.355z"/>
+</svg></button>
+
+<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+  <div class="offcanvas-header">
+    <h5 id="offcanvasRightLabel">Immagine:</h5>
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+   Interno di S. Andrea, Leon Battista Alberti (1404-1472), 1470, Mantova.
+  </div>
+</div>
+</div>
+
+
+  <div class="row">
+
+    <div class="col-md-4"></div>
+    <div class="col-md-4"><img src="img/Bruno.jpeg" width=80%>
+
+    	<<button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom"></button>
+
+<div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasBottomLabel">Immagine:</h5>
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body small">
+    Monumento a Giordano Bruno, realizzato da Ettore Ferrari, inaugurato nel 1889, Campo dei fiori, Roma.
+  </div>
+</div>
+
+    </div>
+
+    <div class="col-md-4"></div>
+  </div>
+
+  <!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
+  <div class="row">
+    <div class="col-md-4 background-opacity"><p>Le riflessioni filosofiche del Rinascimento sono accompagnate da studi e ricerche in vari ambiti quali quello astronomico, matematico, l'alchemia e la farmacia, l'arte e l'architettura.</p></div>
+    <div class="col-md-4"></div>
+    <div class="col-md-4 background-opacity"><p>Nell'ambito scientifico tappa irreversibile è la messa in crisi del <a href="#sistema">sistema tolemaico a favore di quello copernicano.</a></p></div>
+  </div>
+
+  <div class="row">
+
+    <div class="col-md-4"></div>
+    <div class="col-md-4 background-opacity"><p class="card-text text-justify">
+  		<h1>Esplora il catalogo filosofico</h1>
+  	<button type="button" class="btn btn-orange">Cerca per temi</button><br>
+  <button type="button" class="btn btn-yellow">Cerca per tipologie</button><br>
+<button type="button" class="btn btn-dodgerblue">Cerca per autori</button></div>
+    <div class="col-md-4"></div>
+  </div>
+  <!-- Columns are always 50% wide, on mobile and desktop -->
+ 
+
+
+<div class="row">
+	
+ 	<div class="col-md-3">
+ 		<img src="img/candelaio.jpg" width=100%>
+ 		<p>
+  <a class="btn btn-red" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-book" viewBox="0 0 16 16">
+  <path d="M1 2.828c.885-.37 2.154-.769 3.388-.893 1.33-.134 2.458.063 3.112.752v9.746c-.935-.53-2.12-.603-3.213-.493-1.18.12-2.37.461-3.287.811V2.828zm7.5-.141c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492V2.687zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783z"/>
+</svg>
+    
+  </a></p><div class="collapse" id="collapseExample">
+  <div class="card card-body">
+    Frontespizio dell'opera <em>Candelaio,</em> Giordano Bruno, 1582
+  </div>
+
+</div>
+ 	</div>
+
+
+ 	
+    <div class="col-md-3"></div>
+    <div class="col-md-3"></div>
+
+
+    <div class="col-md-3">
+    	<img src="img/labalch.jpeg" width=100%>
+    	<p>
+  <a class="btn btn-purple" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-hourglass" viewBox="0 0 16 16">
+  <path d="M2 1.5a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-1v1a4.5 4.5 0 0 1-2.557 4.06c-.29.139-.443.377-.443.59v.7c0 .213.154.451.443.59A4.5 4.5 0 0 1 12.5 13v1h1a.5.5 0 0 1 0 1h-11a.5.5 0 1 1 0-1h1v-1a4.5 4.5 0 0 1 2.557-4.06c.29-.139.443-.377.443-.59v-.7c0-.213-.154-.451-.443-.59A4.5 4.5 0 0 1 3.5 3V2h-1a.5.5 0 0 1-.5-.5zm2.5.5v1a3.5 3.5 0 0 0 1.989 3.158c.533.256 1.011.791 1.011 1.491v.702c0 .7-.478 1.235-1.011 1.491A3.5 3.5 0 0 0 4.5 13v1h7v-1a3.5 3.5 0 0 0-1.989-3.158C8.978 9.586 8.5 9.052 8.5 8.351v-.702c0-.7.478-1.235 1.011-1.491A3.5 3.5 0 0 0 11.5 3V2h-7z"/>
+</svg>
+    
+  </a></p><div class="collapse" id="collapseExample">
+  <div class="card card-body">
+    Francesco I nel suo laboratorio alchemico, Giovanni Stradano (1523-1605), 1570, dipinto, conservato presso Palazzo Vecchio a Firenze
+  </div>
+
+
+   
+  
+</div>
+	</div><h3>Immagine sfondo: affresco di Palazzo Farnese a Caprarola, mappa delle costellazioni cosmiche raffigurate come esseri viventi</h3>
+</section>
+
+
+       <section class="container-fluid background-lightpink pb-5 pt-5">
+       	<h1 id="sistema"><button type="button" class="btn btn-orange float-end">Indice dei temi</button>Tra i temi: riflessioni attorno al sistema solare</h1>
+
+
+        	<div class="container">
+
+        		<div class="row mt-5">
+
+
+        			 <div class="col-md-4"></div>
+        			 <div class="col-md-4"><iframe frameborder="0" class="juxtapose" width="400" height="400" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=a9f348a6-6934-11ed-b5bd-6595d9b17862"></iframe></div>
+        			 <div class="col-md-4"><img src="img/deinf.jpeg" width="200" height="200" title="De universo infinito et mondi, Giordano Bruno"></div>
+	 
+        		     
+
+        			</div>
+
+        		</div>
+
+        	</div>
+
+       </section>
+
+       <section class="container-fluid background-lightblue pb-5 pt-5">
+       	
+        	<div class="container" id="autori"><button type="button" class="btn btn-blue float-end">Indice degli autori</button>
+				<h1>I filosofi maggiori</h1>
+
+        		<div class="row">
+
+        			 <div class="col-md-4 mt-4">
+
+        			 <div class="card h-100" style="width: 25rem;">
+					  <img src="img/prpomponazzi.jpg" width="100" height="200" class="card-img-top img-fluid" title="Pietro Pomponazzi" alt="Pietro Pomponazzi">
+					  <div class="card-body">
+					    
+					    <h4 class="card-text">Pietro Pomponazzi (1462-1525)</h4>
+					    <blockquote class="blockquote mb-0"><p>«Bene dissero gli antichi quando posero l'uomo fra le cose eterne e quelle temporali, perciò che non è né puramente eterno né semplicemente temporale, ma partecipando di entrambe le nature, e stando medio fra esse, gli è concesso viver quella che vuole»</p>
+					    <footer class="blockquote-footer">Dal <cite title="Source Title">De immortalitate, cap. 1</cite></footer></blockquote>
+					    <a href="#" class="btn btn-primary">Opere di Pietro Pomponazzi</a>
+					  </div>
+					</div>
+				</div>
+
+					<div class="col-md-4 mt-4">
+
+					<div class="card h-100" style="width: 25rem;">
+					  <img src="img/gb.jpeg" width="100" height="200" class="card-img-top img-fluid" alt="Giordano Bruno" title="Giordano Bruno">
+					  <div class="card-body"><h4 class="card-text">Giordano Bruno (1548-1600)</h4>
+					    <blockquote class="blockquote mb-0"><p>«Non è dunque filosofo se non chi immagina e riproduce»</p>					    
+					    <footer class="blockquote-footer">Dal <cite title="Source Title">Triginta sigillorum explicatio, sigillo XII</cite></footer></blockquote>
+					    <a href="#" class="btn btn-primary">Opere di Giordano Bruno</a>
+					  </div>
+					</div>
+				</div>
+
+					<div class="col-md-4 mt-4">
+
+					<div class="card h-100" style="width: 25rem;">
+					  <img src="img/campanella.jpg" width="100" height="200" class="card-img-top img-fluid" alt="Tommaso campanella" title="Tommaso Campanella">
+					  <div class="card-body"><h4 class="card-text">Tommaso Campanella (1568-1639)</h4>
+					    <blockquote class="blockquote mb-0"><p>«Il mondo è il libro dove il senno eterno scrisse i propri concetti»</p>
+					    
+					    <footer class="blockquote-footer">Dal <cite title="Source Title">Modo di filosofare, in Poesie filosofiche</cite></footer></blockquote>
+					    <a href="#" class="btn btn-primary">Opere di Tommaso Campanella</a>
+					  </div>
+					</div>
+				</div>
+        		      		  
+	       		</div>	 	
+				</div>
+        	</div>
+       </section>
+
+</main>
+
+<footer>
+	<div class="container-fluid background-linear">
+		<div class="container">
+			<div class="row">
+
+				
+
+				<div class="col-md-4"><p>Iscriviti</p><form>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputEmail4">Email</label>
+      <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputPassword4">Password</label>
+      <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="inputAddress">Address</label>
+    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+  </div>
+
+</form>
+</div>
+
+
+
+<div class="col-md-4">
+					<ul>
+					<img src="img/piet.png" width="100" title="Immagine pietra filosofale" alt="Immagine pietra filosofale">
+				<h4>Philosorix</h4>
+					<li>CC BY-ND</li>
+					
+				</ul>
+					
+				</div>
+
+				
+
+			<div class="col-md-4">
+				<ul>
+					<h3>Contatti<h3>
+					<li>Cellulare: +39 3319189837</li>
+					<li>Telefono: 065293446</li>
+					<li>Email: ludovica.schifano@studio.unibo.it</li>
+					<li><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2845.9137934249825!2d11.348912550756431!3d44.49643317899887!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x477fd4bb93bc72fd%3A0xcb21126f200aa692!2sVia%20Zamboni%2C%20Bologna%20BO!5e0!3m2!1sit!2sit!4v1668899559431!5m2!1sit!2sit" width="100" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></li>
+				</ul>
+				</div>
+
+			</div>
+		</div>
+	</div>
+<div class="container-fluid background-grey">
+		<p class="text-center">&copy; Copyright 2022 corso di Digital Humanities e Patrimonio Culturale, Università di Bologna</p></div>
+
+	
+
+</footer>
+
+
+<script>
+function initComparisons() {
+  var x, i;
+  /*find all elements with an "overlay" class:*/
+  x = document.getElementsByClassName("img-comp-overlay");
+  for (i = 0; i < x.length; i++) {
+    /*once for each "overlay" element:
+    pass the "overlay" element as a parameter when executing the compareImages function:*/
+    compareImages(x[i]);
+  }
+  function compareImages(img) {
+    var slider, img, clicked = 0, w, h;
+    /*get the width and height of the img element*/
+    w = img.offsetWidth;
+    h = img.offsetHeight;
+    /*set the width of the img element to 50%:*/
+    img.style.width = (w / 2) + "px";
+    /*create slider:*/
+    slider = document.createElement("DIV");
+    slider.setAttribute("class", "img-comp-slider");
+    /*insert slider*/
+    img.parentElement.insertBefore(slider, img);
+    /*position the slider in the middle:*/
+    slider.style.top = (h / 2) - (slider.offsetHeight / 2) + "px";
+    slider.style.left = (w / 2) - (slider.offsetWidth / 2) + "px";
+    /*execute a function when the mouse button is pressed:*/
+    slider.addEventListener("mousedown", slideReady);
+    /*and another function when the mouse button is released:*/
+    window.addEventListener("mouseup", slideFinish);
+    /*or touched (for touch screens:*/
+    slider.addEventListener("touchstart", slideReady);
+    /*and released (for touch screens:*/
+    window.addEventListener("touchend", slideFinish);
+    function slideReady(e) {
+      /*prevent any other actions that may occur when moving over the image:*/
+      e.preventDefault();
+      /*the slider is now clicked and ready to move:*/
+      clicked = 1;
+      /*execute a function when the slider is moved:*/
+      window.addEventListener("mousemove", slideMove);
+      window.addEventListener("touchmove", slideMove);
+    }
+    function slideFinish() {
+      /*the slider is no longer clicked:*/
+      clicked = 0;
+    }
+    function slideMove(e) {
+      var pos;
+      /*if the slider is no longer clicked, exit this function:*/
+      if (clicked == 0) return false;
+      /*get the cursor's x position:*/
+      pos = getCursorPos(e)
+      /*prevent the slider from being positioned outside the image:*/
+      if (pos < 0) pos = 0;
+      if (pos > w) pos = w;
+      /*execute a function that will resize the overlay image according to the cursor:*/
+      slide(pos);
+    }
+    function getCursorPos(e) {
+      var a, x = 0;
+      e = (e.changedTouches) ? e.changedTouches[0] : e;
+      /*get the x positions of the image:*/
+      a = img.getBoundingClientRect();
+      /*calculate the cursor's x coordinate, relative to the image:*/
+      x = e.pageX - a.left;
+      /*consider any page scrolling:*/
+      x = x - window.pageXOffset;
+      return x;
+    }
+    function slide(x) {
+      /*resize the image:*/
+      img.style.width = x + "px";
+      /*position the slider:*/
+      slider.style.left = img.offsetWidth - (slider.offsetWidth / 2) + "px";
+    }
+  }
+} 	
+
+
+</script>	
+
+
+
+
+<script>
+/*Execute a function that will execute an image compare function for each element with the img-comp-overlay class:*/
+initComparisons();
+</script>
+
+
+
+
+</script>  
+
+
+
+<script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+	</body>
+</html>
