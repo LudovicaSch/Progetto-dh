@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<collezione>
+	<item n="113" xml:id="2021667913">
+		<genere>Libro/materiale stampato</genere>
+		<titolo-item>De triplici vita, Marsilio Ficino</titolo-item>
+		<immagine riferimento="img/item.jpeg"/>
+
+<metadati>
+			<titolo>De triplici vita</titolo>
+			<autore>Marsilio Ficino</autore>
+			<data>1489-09-16</data>
+			<identificativo tipo="digitale">https://hdl.loc.gov/loc.wdl/wdl.11614</identificativo>
+			<identificativo tipo="permalink">https://lccn.loc.gov/2021667913</identificativo>
+			<supporto>
+				<supporto-materiale>Codice di pergamena</supporto-materiale>
+				<supporto-numero>173 fogli</supporto-numero>
+				<supporto-dimensioni>160 x 260 millimetri</supporto-dimensioni>
+			</supporto>
+			<contributore tipo="fornitore">Biblioteca Laurenziana Medicea di Firenze</contributore>
+			<contributore tipo="intermediario">The Stanford Encyclopedia of Philosophy</contributore>
+			<collocazione>Biblioteca Laurenziana Medicea di Firenze</collocazione>
+			<soggetti>
+				<termine n="1">Codice</termine>
+				<termine n="2">Filosofia</termine>
+				<termine n="3">Italia</termine>
+				<termine n="4">Memoria del mondo</termine>
+			</soggetti>
+		</metadati>
+	</item>
+</collezione>
