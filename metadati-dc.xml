@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<collezione xmlns:dc="http://purl.org/dc/elements/1.1/" xml:id="collezione">   
+	<item n="113" xml:id="collezione-2021667913">
+		<genere>Libro/materiale stampato</genere>
+		<titolo-item>De triplici vita, Marsilio Ficino</titolo-item>
+		<immagine riferimento="img/item.jpeg"/>		
+		<metadati>
+			<dc:title>De triplici vita</dc:title>
+			<dc:creator>Marsilio Ficino</dc:creator>
+			<dc:date>1489-09-16</dc:date>
+			<dc:language>Latino</dc:language>
+			<dc:identifier>https://hdl.loc.gov/loc.wdl/wdl.11614</dc:identifier>
+			<dc:identifier>https://lccn.loc.gov/2021667913</dc:identifier>		
+			<dc:format>Codice di pergamena</dc:format>
+			<dc:format>173 fogli</dc:format>
+			<dc:format>160 x 260 millimetri</dc:format>			
+			<dc:contributor>Biblioteca Laurenziana Medicea di Firenze</dc:contributor>
+			<dc:contributor>The Stanford Encyclopedia of Philosophy</dc:contributor>
+			<dc:coverage>Biblioteca Laurenziana Medicea di Firenze</dc:coverage>			
+			<dc:subject>Codice</dc:subject>
+			<dc:subject>Filosofia</dc:subject>
+			<dc:subject>Italia</dc:subject>
+			<dc:subject>Memoria del mondo</dc:subject>		
+			<dc:rights>The Library of Congress is unaware of any copyright or other restrictions in the World Digital Library Collection. Absent any such restrictions, these materials are free to use and reuse. Researchers are encouraged to review the source information attached to each item. For information on contacting WDL partner organizations, see this archived list of partners</dc:rights>
+		</metadati>
+	</item>
+</collezione>
