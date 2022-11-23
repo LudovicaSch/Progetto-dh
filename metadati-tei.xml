@@ -1,0 +1,41 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>De triplici vita</title>
+				<author ref="#MF">Marsilio Ficino</author>
+			<respStmt>
+				<resp>marcatura realizzata da</resp>
+				<name xml:id="LS">Ludovica Schifano</name>
+				<funder>Alma Mater Studiorum</funder>
+			</respStmt>
+		</titleStmt>
+		<publicationStmt>
+			<publisher>Alma Mater Studiorum</publisher>
+                   <date>2022</date>
+                   <availability>
+			<p>Questa risorsa digitale è liberamente accessibile per uso personale o scientifico. Ogni uso commerciale è vietato</p>
+			</availability>
+		</publicationStmt>
+		<sourceDesc>
+			<p>Trascritta dal De vita libri tres</p>
+		</sourceDesc>
+	</fileDesc>
+</teiHeader>
+<text>
+	<front>
+		
+		<div type="tipologia">
+		<p/>
+	</div>
+</front>
+	
+<body>Viene qui presentato il codice di una delle opere tarde di <author id="#MF">Ficino</author>, <rs type="Opera" xml:id="DTV">De triplici vita</rs> (Tre libri sulla vita, 1489), dal Fondo Plutei della Biblioteca Medicea Laurenziana di Firenze. Il colophon sul verso del foglio 174 indica che il manoscritto fu terminato il <date>16 settembre 1489</date>. Precede quindi l'editio princeps (prima edizione a stampa), stampata a Firenze da Antonio Miscomini il 3 dicembre 1489. Il De triplici vita consiste di tre libri. <rs type="Opera" xml:id="Dvs">De vita sana</rs> (Sulla vita sana), dedicata al patrono di Ficino, Lorenzo il Magnifico, ha lo scopo di aiutare gli studiosi a raggiungere una vita sana attraverso una corretta alimentazione e abitudini. De vita longa (Sulla lunga vita), che Ficino dedica a Filippo Valori, notabile fiorentino e protetto di Lorenzo, fornisce analoghi consigli agli anziani. De vita coelitus comparanda (Sull'ottenere la vita dai cieli) approfondisce la possibilità di trarre forza sulla Terra dagli oggetti celesti. <author id="#MF">Ficino</author> dedicò questo libro al re Mattia Corvino d'Ungheria (1443-90).</body>
+<back>
+	
+<div type="tipologia">
+<p/>
+</div>
+</back>
+</text>
+</TEI>
