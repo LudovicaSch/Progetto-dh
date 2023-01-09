@@ -1,308 +1,190 @@
 
 <!DOCTYPE html>
 <html lang="it-IT">
-	<head>
-		<title>Philosorix</title>
-		<meta charset="UTF-8">
-		<!-- responsive web design metaproperty per adeguare device con bootstrap-->
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta name="DC.Title" content="Philosorix">
-    <meta name="DC.Creator" content="Ludovica Schifano">
-    <meta name="DC.Subject" content="La filosofia del Rinascimento">
-    <meta name="DC.Description" content="Philosorix offre la possibilità di esplorare le opere dei filosofi rinascimentali e la cultura a loro coeva">
-    <meta name="DC.Publisher"
-        content="Alma Mater Studiorum-Università di Bologna">
-    <meta name="DC.Contributor"
-        content="Ludovica Schifano">
-    <meta name="DC.Date" content="24/11/22">
-    <meta name="DC.Type" content="Sito web">
-    <meta name="DC.Format" content="HTML/CSS/JS">
-    <link rel="DC.Identifier" href="https://www.nomedelsitoweb.github.io">
-    <meta name="DC.Source" content="mappe, timelines, tag cloud, grafi, diagrammi, collegamenti con altre risorse, annotazioni e commenti, analisi del testo, strumenti integrativi di accesso ai contenuti">
+<head>
+      <title>Philosorix</title>
+      <meta charset="UTF-8"/>
+      
+    <!-- responsive web design metaproperty per adeguare device con bootstrap-->
+      <meta name="DC.Title" content="Philosorix">
+    <meta name="DC.Creator.PersonalName" content="Ludovica Schifano">
+      <meta name="DC.Creator.PersonalName.Address" content="ludovica.schifano@studio.unibo.it">
+      <meta name="DC.Subject" content="La filosofia del primo Rinascimento- dal 1500 al 1530">
+      <meta name="DC.Description" content="Philosorix offre la possibilità di esplorare le opere dei filosofi rinascimentali e la cultura a loro coeva">
+    <meta name="DC.Date" content="02-01-2023">
+    <meta name="DC.Type" content="Raccolta">
+    <meta name="DC.Format" content="Raccolta digitale">
+      <meta name="DC.Identifier" content="https://www">
     <meta name="DC.Language" content="it">
-    <meta name="DC.Relation"
-        content="ISBN, ICCU, EAD, FRBR">
-    <link rel="DC.Coverage"
-        href="World, Europe, Italy, Emilia-Romagna, Bologna province">
-    <meta name="DC.Rights"
-        content="CC BY-NC">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stile/primorinascimento.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>      
+    <header>
+      <span id="top"></span>  
+      <div class="container-header">
+        <img src="img/piet.png" width="100" title="Immagine pietra filosofale" alt="Immagine pietra filosofale">
+        <h1>Philosorix</h1>
+      </div>    
+    </header>   
+    <navbar>
+      <nav class="navbar navbar-expand-lg bg-dark fs-5 navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html" title="Home">Home</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav">      
+             
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#"  role="button" data-bs-toggle="dropdown" title="Catalogo">Catalogo</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="lista.html">Lista</a></li>
+                <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Ricerca avanzata</a></li>
+                <li><a class="dropdown-item" href="#">Per opera <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-book" viewBox="0 0 16 16">
+  <path d="M1 2.828c.885-.37 2.154-.769 3.388-.893 1.33-.134 2.458.063 3.112.752v9.746c-.935-.53-2.12-.603-3.213-.493-1.18.12-2.37.461-3.287.811V2.828zm7.5-.141c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492V2.687zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783z"/>
+</svg></a></li>
+                <li><a class="dropdown-item" href="#">Per autore <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+  <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4Zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10Z"/>
+</svg></a></li>
+                <li><a class="dropdown-item" href="#">Per data <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-hourglass" viewBox="0 0 16 16">
+          <path d="M2 1.5a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-1v1a4.5 4.5 0 0 1-2.557 4.06c-.29.139-.443.377-.443.59v.7c0 .213.154.451.443.59A4.5 4.5 0 0 1 12.5 13v1h1a.5.5 0 0 1 0 1h-11a.5.5 0 1 1 0-1h1v-1a4.5 4.5 0 0 1 2.557-4.06c.29-.139.443-.377.443-.59v-.7c0-.213-.154-.451-.443-.59A4.5 4.5 0 0 1 3.5 3V2h-1a.5.5 0 0 1-.5-.5zm2.5.5v1a3.5 3.5 0 0 0 1.989 3.158c.533.256 1.011.791 1.011 1.491v.702c0 .7-.478 1.235-1.011 1.491A3.5 3.5 0 0 0 4.5 13v1h7v-1a3.5 3.5 0 0 0-1.989-3.158C8.978 9.586 8.5 9.052 8.5 8.351v-.702c0-.7.478-1.235 1.011-1.491A3.5 3.5 0 0 0 11.5 3V2h-7z"/>
+        </svg></a></li>
+                <li><a class="dropdown-item" href="#">Per luogo <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-globe" viewBox="0 0 16 16">
+  <path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm7.5-6.923c-.67.204-1.335.82-1.887 1.855A7.97 7.97 0 0 0 5.145 4H7.5V1.077zM4.09 4a9.267 9.267 0 0 1 .64-1.539 6.7 6.7 0 0 1 .597-.933A7.025 7.025 0 0 0 2.255 4H4.09zm-.582 3.5c.03-.877.138-1.718.312-2.5H1.674a6.958 6.958 0 0 0-.656 2.5h2.49zM4.847 5a12.5 12.5 0 0 0-.338 2.5H7.5V5H4.847zM8.5 5v2.5h2.99a12.495 12.495 0 0 0-.337-2.5H8.5zM4.51 8.5a12.5 12.5 0 0 0 .337 2.5H7.5V8.5H4.51zm3.99 0V11h2.653c.187-.765.306-1.608.338-2.5H8.5zM5.145 12c.138.386.295.744.468 1.068.552 1.035 1.218 1.65 1.887 1.855V12H5.145zm.182 2.472a6.696 6.696 0 0 1-.597-.933A9.268 9.268 0 0 1 4.09 12H2.255a7.024 7.024 0 0 0 3.072 2.472zM3.82 11a13.652 13.652 0 0 1-.312-2.5h-2.49c.062.89.291 1.733.656 2.5H3.82zm6.853 3.472A7.024 7.024 0 0 0 13.745 12H11.91a9.27 9.27 0 0 1-.64 1.539 6.688 6.688 0 0 1-.597.933zM8.5 12v2.923c.67-.204 1.335-.82 1.887-1.855.173-.324.33-.682.468-1.068H8.5zm3.68-1h2.146c.365-.767.594-1.61.656-2.5h-2.49a13.65 13.65 0 0 1-.312 2.5zm2.802-3.5a6.959 6.959 0 0 0-.656-2.5H12.18c.174.782.282 1.623.312 2.5h2.49zM11.27 2.461c.247.464.462.98.64 1.539h1.835a7.024 7.024 0 0 0-3.072-2.472c.218.284.418.598.597.933zM10.855 4a7.966 7.966 0 0 0-.468-1.068C9.835 1.897 9.17 1.282 8.5 1.077V4h2.355z"/>
+</svg></a></li>
+              </ul>
+            </li>
+            
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#" title="Luoghi" role="button" data-bs-toggle="dropdown">Percorsi</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Scoperte</a></li> 
+                <li><a class="dropdown-item" href="#">Vocabolario</a></li> 
+                <li><a class="dropdown-item" href="lineatempo.html">Linea del tempo</a></li>
+                <li><a class="dropdown-item" href="#">Mappa</a></li>         
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#" title="Contatti" role="button" data-bs-toggle="dropdown">Contatti</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Chi siamo</a></li>
+                <li><a class="dropdown-item" href="#">Info</a></li>
+                <li><a class="dropdown-item" href="#">Scrivici</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        
+        <form class="d-flex">
+            <input class="form-control" type="text" placeholder="Cerca...">
+            <button type="submit"><i class="fa fa-search"></i></button>
+            <button class="btn btn-success">Accedi</button>
+        </form>
+          
+         </div>
+        </nav>
+    </navbar>
+
+
+
+
+
+      <main class="pb-5">
+         <section class="container-fluid">
+                    
+          <div class="row">
+            <div class="col-md-12">
+
+              <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                      <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                      <li class="breadcrumb-item"><a href="lista.html">Lista</a></li>
+                      <li class="breadcrumb-item active" aria-current="page">item</li>
+                    </ol>
+              </nav>
+
+            </div>
+          </div><!--chiude breadcrumb-->
+
+          <div class="row">              
+              <div class="col-md-12 background-grey">
+                  <h2 class="text-light text-center"><span class="text-white-50">De triplici vita,</span> Marsilio Ficino</h2>
+              </div>
+          </div>         	
+            
+                <hr>
+
+           
+<div class="row">
+  <div class="col-md-9">
+
+		<div class="text-center">
+      <h6><em>Viene qui presentato il codice di una delle opere tarde di Ficino, <strong>De triplici vita (Tre libri sulla vita, 1489)</strong> dal Fondo Plutei della Biblioteca Medicea Laurenziana di Firenze. Il colophon sul verso del foglio 174 indica che il manoscritto fu terminato il 16 settembre 1489. Precede quindi l'editio princeps (prima edizione a stampa), stampata a Firenze da Antonio Miscomini il 3 dicembre 1489. Il De triplici vita consiste di tre libri. De vita sana (Sulla vita sana), dedicata al patrono di Ficino, Lorenzo il Magnifico, ha lo scopo di aiutare gli studiosi a raggiungere una vita sana attraverso una corretta alimentazione e abitudini. De vita longa (Sulla lunga vita), che Ficino dedica a Filippo Valori, notabile fiorentino e protetto di Lorenzo, fornisce analoghi consigli agli anziani. De vita coelitus comparanda (Sull'ottenere la vita dai cieli) approfondisce la possibilità di trarre forza sulla Terra dagli oggetti celesti. Ficino dedicò questo libro al re Mattia Corvino d'Ungheria (1443-90).</em></h6>
+        <hr>
+        <h5 class="text-secondary text-center">Libro/Materiale stampato</h5>
+
+  <img src="img/item.jpeg" class="img-fluid zoom" width="300" height="400" alt="Immagine item"></div>
+
+
+
+
+<ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+  <li class="nav-item" role="presentation">
+    <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Testo</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Metadata</button>
+  </li>
+</ul>
+
+<div class="tab-content" id="pills-tabContent">
+  <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab"></div>
+  <table class="table mt-5">
+        <thead>
+          <tr class="table-info">
+            <th scope="col">Testo originale latino</th>
+          </tr>
+        </thead>
+      </table>
+      
+  <p>Proemium Marsilii Ficini florentini in librum de vita. Ad magnanimum laurentiu medice patriam salvatore. Baccum, poaete summum antiftiter sacerdoti, bis natu canuntito te segnificante vel futurum sacedote statum unitatum oportere renata vol perfecti tandere sacerdotis metem deus penitus ebria iam videri renatam. Aut forsan humiliorem sensum vinum Bacchi germen generari semel invitu quasi senele maturis sub Fhebo racemis regenerari rusum post ipum vindemia fulmen in suo vase vinum, velut in Jovis ferome merum delacris imperfecta misterys non est loquendum nos mox phisica ope languentibus opulatur.</p>
+
+  <table class="table mt-5">
+        <thead>
+          <tr class="table-info">
+            <th scope="col">Testo in traduzione italiana</th>
+          </tr>
+        </thead>
+      </table>
+
+      <p>Proemio di Marsilio Ficino al libro sulla vita. Al magnifico Lorenzo De' Medici Salvatore della patria. I poeti cantano che Bacco, sommo capo dei sacerdoti, nacque due volte, forse per far capire che chi si appresta a diventare sacerdote deve rinascere nei riti dell'iniziazione, o che la mente del sacerdote ormai perfetto, dal profondo ricolma di Dio, fino all'ebbrezza sembra ormai rinata; o forse più semplicemente intendono dire che il vino, figlio di Bacco, nasce una prima volta sulla vite, quasi Semele, nei grappoli maturi sotto Febe, e poi nasce una seconda volta dopo il fulmine della vendemmia come il vino puro nel tino, come dal femore di Giove. Ma non è questo il momento di parlare dei sacri misteri, ora che stiamo piuttosto per porgere aiuto con mezzi naturali a coloro che sono indeboliti o malati.</p>
     
-		
-		
-		<link rel="icon" type="image/x-icon" href="favicon.ico">
-		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
-		<link rel="stylesheet" type="text/css" href="stile/stile.css">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm">
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-		
 
-		</head>
+    <table class="table mt-5">
+        <thead>
+          <tr class="table-info">
+            <th scope="col">Strumenti per analisi del testo (in traduzione italiana)</th>
+          </tr>
+        </thead>
+      </table>
+      <p>
+        <iframe style='width: 300px; height: 300px;' src='https://voyant-tools.org/tool/Cirrus/?corpus=4e09d02c15e4a39f861deee90e173729'></iframe>
+        <iframe style='width: 300px; height: 300px;' src='https://voyant-tools.org/tool/Reader/?corpus=4e09d02c15e4a39f861deee90e173729'></iframe>
+        <iframe style='width: 300px; height: 300px;' src='https://voyant-tools.org/tool/Trends/?query=che&query=di&query=il&query=o&query=volta&mode=document&corpus=4e09d02c15e4a39f861deee90e173729'></iframe>
+      </p>
 
-
-	
-	<body>	
-			
-		
-<navbar>
-	<nav class="navbar navbar-expand-lg bg-dark fs-5 navbar-dark">
-  <div class="container-fluid">
-
-<img src="img/piet.png" width="80" title="Philosorix" alt="Immagine pietra filosofale">Philosorix</h1>
-<a class="navbar-brand text-secondary" href="index.html" title="Home">Home</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+</div>
 
       
-    <div class="collapse navbar-collapse" id="collapsibleNavbar">
-      <ul class="navbar-nav">      
-         
-        <li class="nav-item dropdown">
-          <a class="nav-link active" href="lista.html"  role="button" data-bs-toggle="dropdown" title="Catalogo">Catalogo</a>
-
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Lista</a></li>
-            <li><a class="dropdown-item" href="#">Autori</a></li>
-            <li><a class="dropdown-item" href="#">Generi</a></li>
-            <li><a class="dropdown-item" href="#">Tipologia</a></li>
-          </ul>
-        </li>
-
-  	
-          
-
-     <!-- ho tolto a tutti dropdown toggle che sarebbe la linguetta per i link -->   
-        <li class="nav-item dropdown">
-          <a class="nav-link" href="#" title="Categorie" role="button" data-bs-toggle="dropdown">Categorie</a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Date</a></li>
-            <li><a class="dropdown-item" href="#">Luoghi</a></li>            
-          </ul>
-        </li>
-        
-        <li class="nav-item dropdown">
-          <a class="nav-link" href="#" title="Contatti" role="button" data-bs-toggle="dropdown">Contatti</a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Chi siamo</a></li>
-            <li><a class="dropdown-item" href="#">Info</a></li>
-            <li><a class="dropdown-item" href="#">Scrivici</a></li>
-          </ul>
-        </li>
-      </ul>
-    </div>
-    
-    <form class="d-flex">
-        <input class="form-control me-2" type="text" placeholder="Cerca...">
-        <button class="btn btn-primary" type="button">Cerca...</button>
-      </form>
-
-     </div>
-    </nav>
- </navbar>
-
-
-
-
-
-
-
-
-
-
-
-<main class="pb-5">
-  <section class="container-fluid">
-
-            <div class="row">
-                <div class="col-md-12 background-grey">
-
-                    <h2 class="text-light text-center"><span class="text-white-50">De triplici vita,</span> Marsilio Ficino</h2>
-                	</div>
-            	</div>
-
-            <div class="row">
-                <!-- classi col-sm e col-xs rispettivamente per small devices (tablet) e extrasmall devices (mobile) -->
-                <div class="col-md-2 mt-5">
-                    <aside>
-
-                        <!-- breadcrumbs -->
-                        <nav aria-label="breadcrumb">
-                          <ol class="breadcrumb">
-                            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                            <li class="breadcrumb-item"><a href="lista.html">Lista</a></li>
-                            <li class="breadcrumb-item active" aria-current="page">item</li>
-                          </ol>
-                        </nav>
-
-
-
-
-
-
-
-                        <div class="dropdown show">
-  
-
-
-
-
-                        <div class="form-check">
-  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-  <label class="form-check-label" for="defaultCheck1">
-    A-Z
-  </label>
-</div>
-<div class="form-check">
-  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-  <label class="form-check-label" for="defaultCheck1">
-    Z-A
-  </label>
-</div>
-                        </div>
-
-
-
-                        <!-- filtra la lista -->
-                        <div class="checkbox-container mt-4">
-
-                            <!-- dropdown menu -->
-                            <!-- Split dropend button -->
-                              <div class="btn-group dropend">
-                                <button type="button" class="btn btn-secondary">
-                                  Opere
-                                </button>
-
-                                <button type="button" class="btn btn-red dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-book" viewBox="0 0 16 16">
-  <path d="M1 2.828c.885-.37 2.154-.769 3.388-.893 1.33-.134 2.458.063 3.112.752v9.746c-.935-.53-2.12-.603-3.213-.493-1.18.12-2.37.461-3.287.811V2.828zm7.5-.141c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492V2.687zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783z"/>
-</svg>
-                                  <span class="visually-hidden">Toggle Dropright</span>
-                                </button>
-
-                                <ul class="dropdown-menu">
-                                  <!-- Dropdown menu links -->
-                                  <li><a class="dropdown-item" href="#"></a></li>
-                                  <li><a class="dropdown-item" href="#">Degli eroici furori</a></li>
-                                  <li><a class="dropdown-item" href="#">De vita libri tres</a></li>
-                                  <li><a class="dropdown-item" href="#">De amore</a></li>
-                                  <li><a class="dropdown-item" href="#">Teologia platonica</a></li>
-                                  
-                                  <button type="button" class="btn btn-primary mt-2">Filtra</button>
-                                </ul>
-
-                              </div>
-                                  
- <br>
-                                <div class="btn-group dropend">
-                                <button type="button" class="btn btn-secondary">
-                                  Date
-                                </button>
-
-                                <button type="button" class="btn btn-purple dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-hourglass" viewBox="0 0 16 16">
-  <path d="M2 1.5a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-1v1a4.5 4.5 0 0 1-2.557 4.06c-.29.139-.443.377-.443.59v.7c0 .213.154.451.443.59A4.5 4.5 0 0 1 12.5 13v1h1a.5.5 0 0 1 0 1h-11a.5.5 0 1 1 0-1h1v-1a4.5 4.5 0 0 1 2.557-4.06c.29-.139.443-.377.443-.59v-.7c0-.213-.154-.451-.443-.59A4.5 4.5 0 0 1 3.5 3V2h-1a.5.5 0 0 1-.5-.5zm2.5.5v1a3.5 3.5 0 0 0 1.989 3.158c.533.256 1.011.791 1.011 1.491v.702c0 .7-.478 1.235-1.011 1.491A3.5 3.5 0 0 0 4.5 13v1h7v-1a3.5 3.5 0 0 0-1.989-3.158C8.978 9.586 8.5 9.052 8.5 8.351v-.702c0-.7.478-1.235 1.011-1.491A3.5 3.5 0 0 0 11.5 3V2h-7z"/>
-</svg>
-                                  <span class="visually-hidden">Toggle Dropright</span>
-                                </button>
-
-                                <ul class="dropdown-menu">
-                                  <!-- Dropdown menu links -->
-                                  <li><a class="dropdown-item" href="#">1491</a></li>
-                                  <li><a class="dropdown-item" href="#">1498</a></li>
-                                  <li><a class="dropdown-item" href="#">1503</a></li>
-                                  <li><a class="dropdown-item" href="#">1507</a></li>
-                                    <button type="button" class="btn btn-primary mt-2">Filtra</button>
-                                </ul>
-
-                              </div>
-                                     
-<br>
-
-                             
-                                  <!-- dropdown menu -->
-                            <!-- Split dropend button -->
-                              <div class="btn-group dropend">
-                                <button type="button" class="btn btn-secondary">
-                                  Luoghi
-                                </button>
-
-                                <button type="button" class="btn btn-green dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-globe" viewBox="0 0 16 16">
-  <path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm7.5-6.923c-.67.204-1.335.82-1.887 1.855A7.97 7.97 0 0 0 5.145 4H7.5V1.077zM4.09 4a9.267 9.267 0 0 1 .64-1.539 6.7 6.7 0 0 1 .597-.933A7.025 7.025 0 0 0 2.255 4H4.09zm-.582 3.5c.03-.877.138-1.718.312-2.5H1.674a6.958 6.958 0 0 0-.656 2.5h2.49zM4.847 5a12.5 12.5 0 0 0-.338 2.5H7.5V5H4.847zM8.5 5v2.5h2.99a12.495 12.495 0 0 0-.337-2.5H8.5zM4.51 8.5a12.5 12.5 0 0 0 .337 2.5H7.5V8.5H4.51zm3.99 0V11h2.653c.187-.765.306-1.608.338-2.5H8.5zM5.145 12c.138.386.295.744.468 1.068.552 1.035 1.218 1.65 1.887 1.855V12H5.145zm.182 2.472a6.696 6.696 0 0 1-.597-.933A9.268 9.268 0 0 1 4.09 12H2.255a7.024 7.024 0 0 0 3.072 2.472zM3.82 11a13.652 13.652 0 0 1-.312-2.5h-2.49c.062.89.291 1.733.656 2.5H3.82zm6.853 3.472A7.024 7.024 0 0 0 13.745 12H11.91a9.27 9.27 0 0 1-.64 1.539 6.688 6.688 0 0 1-.597.933zM8.5 12v2.923c.67-.204 1.335-.82 1.887-1.855.173-.324.33-.682.468-1.068H8.5zm3.68-1h2.146c.365-.767.594-1.61.656-2.5h-2.49a13.65 13.65 0 0 1-.312 2.5zm2.802-3.5a6.959 6.959 0 0 0-.656-2.5H12.18c.174.782.282 1.623.312 2.5h2.49zM11.27 2.461c.247.464.462.98.64 1.539h1.835a7.024 7.024 0 0 0-3.072-2.472c.218.284.418.598.597.933zM10.855 4a7.966 7.966 0 0 0-.468-1.068C9.835 1.897 9.17 1.282 8.5 1.077V4h2.355z"/>
-</svg>
-                                  <span class="visually-hidden">Toggle Dropright</span>
-                                </button>
-
-                                <ul class="dropdown-menu">
-                                  <!-- Dropdown menu links -->
-                                   <li><a class="dropdown-item" href="#">Roma</a></li>
-                                  <li><a class="dropdown-item" href="#">Ravenna</a></li>
-                                  <li><a class="dropdown-item" href="#">Ferrara</a></li>
-                                  <li><a class="dropdown-item" href="#">Bologna</a></li>
-                                  <li><a class="dropdown-item" href="#">Firenze</a></li>
-<button type="button" class="btn btn-primary mt-2">Filtra</button>
-                                </ul>
-                              </div>
-
-<hr>
-
-
-
-
-
-<div class="dropdown">
-  <h3><span style="color:white">Filtra</span></h3>
-  <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">per genere</a>
-
-  <ul class="dropdown-menu">
-    <li><a class="dropdown-item" href="#">Filosofia politica<span class="badge badge-primary badge-pill">190</span></a></li>
-    <li><a class="dropdown-item" href="#">Filosofia aristotelica<span class="badge badge-primary badge-pill">94</span></a></li>
-    <li><a class="dropdown-item" href="#">Filosofia neoplatonica<span class="badge badge-primary badge-pill">138</span></a></li>
-  </ul>
-
-  <hr>
-
-  <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">per paese fornitore
-  </a>
-
-  <ul class="dropdown-menu">
-    <li><a class="dropdown-item" href="#">Italia<span class="badge badge-primary badge-pill">300</span></a></li> 
-
-    <li><a class="dropdown-item" href="#">Francia<span class="badge badge-primary badge-pill">145</span></a></li>
-    <li><a class="dropdown-item" href="#">Ingilterra<span class="badge badge-primary badge-pill">161</span></a></li>
-    <li><a class="dropdown-item" href="#">Spagna<span class="badge badge-primary badge-pill">200</span></a></li>
-    <li><a class="dropdown-item" href="#">Repubblica Ceca<span class="badge badge-primary badge-pill">14</span></a></li>
-    <li><a class="dropdown-item" href="#">Ungheria<span class="badge badge-primary badge-pill">14</span></a></li>
-  </ul>
-</div>
-<hr>
-
- <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">per tematica</a>
-
-  <ul class="dropdown-menu">
-    <li><a class="dropdown-item" href="#">Archeologia</a></li>
-    <li><a class="dropdown-item" href="#">Arte</a></li>
-    <li><a class="dropdown-item" href="#">Geografia</a></li>
-    <li><a class="dropdown-item" href="#">Moda</a></li>
-    <li><a class="dropdown-item" href="#">Storia</a></li> 
-    <li><a class="dropdown-item" href="#">Scienza</a></li>
-  </ul>
-
-
-
-
-					</aside>
-				</div>
-
-			
-
-<div class="col-md-8">
-<div class="row">
-	
-		<div class="col-md-12 background-azul">
-
-			<div class="text-center"><h5 class="text-secondary">Libro/Materiale stampato</h5>
-  <img src="img/item.jpeg" class="img-fluid rounded" width="500" height="300" alt="Immagine item">
-  <p class="mt-5">Viene qui presentato il codice di una delle opere tarde di Ficino, De triplici vita (Tre libri sulla vita, 1489), dal Fondo Plutei della Biblioteca Medicea Laurenziana di Firenze. Il colophon sul verso del foglio 174 indica che il manoscritto fu terminato il 16 settembre 1489. Precede quindi l'editio princeps (prima edizione a stampa), stampata a Firenze da Antonio Miscomini il 3 dicembre 1489. Il De triplici vita consiste di tre libri. De vita sana (Sulla vita sana), dedicata al patrono di Ficino, Lorenzo il Magnifico, ha lo scopo di aiutare gli studiosi a raggiungere una vita sana attraverso una corretta alimentazione e abitudini. De vita longa (Sulla lunga vita), che Ficino dedica a Filippo Valori, notabile fiorentino e protetto di Lorenzo, fornisce analoghi consigli agli anziani. De vita coelitus comparanda (Sull'ottenere la vita dai cieli) approfondisce la possibilità di trarre forza sulla Terra dagli oggetti celesti. Ficino dedicò questo libro al re Mattia Corvino d'Ungheria (1443-90).</p>
-</div>
-
+<div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
 			<table class="table">
 			  <thead>
 			    <tr class="table-info">
@@ -317,7 +199,6 @@
 			      <th scope="row">Autore:</th>
 			      <td><a href="http://viaf.org/viaf/120697563/" class="link-dark"  target="_blank" title="Pagina VIAF Marsilio Ficino"> Marsilio Ficino<sup>VIAF</sup></a></td>
 			      <td></td>
-			      
 			    </tr>
 			    <tr>
 			      <th scope="row">Data:</th>
@@ -344,8 +225,7 @@
 			      <td></td>
 			  
 			    </tr>
-			    
-          
+		
 			    <tr>
 			    	<tr>
 			      <th scope="row">Codice identificativo:</th>
@@ -358,17 +238,14 @@
 			      <td><a href="https://www.bmlonline.it" class="link-dark"  target="_blank" title="Biblioteca Medicea Laurenziana di Firenze">Biblioteca Medicea Laurenziana di Firenze <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-right-square" viewBox="0 0 16 16">
                             <path fill-rule="evenodd" d="M15 2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2zM0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm5.854 8.803a.5.5 0 1 1-.708-.707L9.243 6H6.475a.5.5 0 1 1 0-1h3.975a.5.5 0 0 1 .5.5v3.975a.5.5 0 1 1-1 0V6.707l-4.096 4.096z"/>
                           </svg></a></td>
-			      <td></td>
-			      
+			      <td></td>   
 			    </tr>
 			    <tr>
-			    	
 			      <th scope="row">Intermediario:</th>
 			      <td><a href="https://plato.stanford.edu" class="link-dark"  target="_blank" title="Catholic University of Ku Leuven">The Stanford Encyclopedia of Philosophy  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-right-square" viewBox="0 0 16 16">
                             <path fill-rule="evenodd" d="M15 2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2zM0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm5.854 8.803a.5.5 0 1 1-.708-.707L9.243 6H6.475a.5.5 0 1 1 0-1h3.975a.5.5 0 0 1 .5.5v3.975a.5.5 0 1 1-1 0V6.707l-4.096 4.096z"/>
                           </svg></a></td>
 			      <td></td>
-			      
 			    </tr>
 			    <tr>
 			      <th scope="row">Posizione attuale:</th>
@@ -376,23 +253,17 @@
                             <path fill-rule="evenodd" d="M15 2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2zM0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm5.854 8.803a.5.5 0 1 1-.708-.707L9.243 6H6.475a.5.5 0 1 1 0-1h3.975a.5.5 0 0 1 .5.5v3.975a.5.5 0 1 1-1 0V6.707l-4.096 4.096z"/>
                           </svg></a></td>
 			      <td></td>
-			      
 			    </tr>
-          <tr>
-            
+          <tr> 
             <th scope="row">Dimensioni:</th>
             <td>160 x 260 millimetri, 173 fogli </td>
-            <td></td>
-           
+            <td></td>   
           </tr>
-  
 			    <tr>
 			      <th scope="row"></th>
 			      <td></td>
 			      <td></td>
-			      
 			    </tr>
-
 			    <hr>
 			  </tbody>
 			</table>
@@ -401,8 +272,7 @@
 			  <thead>
 			    <tr class="table-info">
 			      <th scope="col">Tema</th>
-			      <td scope="col"><a href="#" class="btn btn-info">Codice</a> <a href="#" class="btn btn-primary">Filosofia</a> <a href="#" class="btn btn-success">Italia</a> <a href="#" class="btn btn-warning">Memoria del mondo</a></td>
-			      
+			      <td scope="col"><a href="#" class="btn btn-info">Codice</a> <a href="#" class="btn btn-primary">Filosofia</a> <a href="#" class="btn btn-success">Italia</a> <a href="#" class="btn btn-warning">Memoria del mondo</a></td>   
 			    </tr>
 			    </thead>
 			</table>
@@ -412,28 +282,24 @@
 			  <thead>
 			    <tr class="table-info">
 			      <th scope="col">Formato</th>
-			      <td scope="col"></td>
-			      <td scope="col"></td>
-			      <td scope="col"></td>
+			      
 			      <td scope="col">
 			      	<div class="form-check form-check-inline">
-  <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-  <label class="form-check-label" for="inlineCheckbox1">PDF</label>
-</div>
-<div class="form-check form-check-inline">
-  <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-  <label class="form-check-label" for="inlineCheckbox2">JPEG</label>
-</div><div class="form-check form-check-inline">
-  <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-  <label class="form-check-label" for="inlineCheckbox1">HSL</label>
-</div>
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                <label class="form-check-label" for="inlineCheckbox1">PDF</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                <label class="form-check-label" for="inlineCheckbox2">JPEG</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                <label class="form-check-label" for="inlineCheckbox1">HSL</label>
+              </div>
 			      </td>
-
 			  </tr>
 			</thead>
 		</table>
-
-
 
     <table class="table">
         <thead>
@@ -441,30 +307,70 @@
             <th scope="col">Diritti</th>
             
             <td scope="col" class="text-justify">The Library of Congress is unaware of any copyright or other restrictions in the World Digital Library Collection. Absent any such restrictions, these materials are free to use and reuse. Researchers are encouraged to review the source information attached to each item. For information on contacting WDL partner organizations, see this archived list of partners</td>
-            
-
           </tr>
         </thead>
       </table>
 
 
-
-
 		<table class="table">
 			  <thead>
 			    <tr class="table-info">
-			    
-			      <td><a href="metadati.xml">XML ben formato</a>
-			      <a href="metadati-dc.xml">XML/DC</a>
-            <a href="metadati-tei.xml">XML/TEI</a></td>
-
-			      
+			      <td>
+              <a href="metadati.xml">XML ben formato</a>
+  			      <a href="metadati-dc.xml">XML/DC</a>
+              <a href="metadati-tei.xml">XML/TEI</a>
+            </td>
 			    </tr>
-			    </thead>
-			</table>
+			  </thead>
+		</table>
+</div>
+</div>
 
 
-		<nav aria-label="Page navigation example ">
+         
+     
+      <div class="col-md-3">
+      <aside>
+                      
+        <div>
+        <p>L'autore</p>
+        <div class="card border-secondary">
+          <img src="img/mars.jpeg" class="card-img-top" alt="Marsilio Ficino (1433-1499)">
+          <div class="card-body">
+            <h5 class="card-title text-secondary">Marsilio Ficino (1433-1499)</h5>
+            <p class="card-text text-secondary">«L'anima si può chiamare il centro della natura»</p>
+            <a href="#" class="btn btn-primary">Opere di Marsilio Ficino</a>
+            <a href="#" class="btn btn-info">Vai al vocabolario filosofico</a>
+          </div>
+        </div>
+        <hr>
+
+        <p><iframe width="300" height="200" src="https://www.youtube.com/embed/VB04KeFk-ZI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" width="10" height="10"></iframe></p>
+        <hr>
+
+        <p>Potrebbe interessarti anche</p>
+        <div class="col">
+                        <div class="card border-danger">
+                          <img src="img/comm.jpeg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h3 class="card-title text-danger"><em>Commento</em> al <em>Simposio</em> di Platone, Marsilio Ficino<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-file-text" viewBox="0 0 16 16">
+                            <path d="M5 4a.5.5 0 0 0 0 1h6a.5.5 0 0 0 0-1H5zm-.5 2.5A.5.5 0 0 1 5 6h6a.5.5 0 0 1 0 1H5a.5.5 0 0 1-.5-.5zM5 8a.5.5 0 0 0 0 1h6a.5.5 0 0 0 0-1H5zm0 2a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1H5z"/>
+                            <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2zm10-1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1z"/>
+                            </svg></h3>
+                            <h5 class="card-text text-danger pt-2">Istituzione fornitrice: Bodleian Libraries, University of Oxford</h5>
+                            <h5 class="card-text text-danger pt-2">Autore: <a href="http://viaf.org/viaf/120697563/"  target="_blank" title="Pagina VIAF Marsilio Ficino"> Marsilio Ficino<sup>VIAF</sup></a></h5>                     
+                             <a href="#" class="btn btn-info">Visualizza metadati</a>
+                          </div>
+                        </div>
+                      </div>
+                     </div>
+
+					</aside>
+
+				</div>
+				</div>
+
+      <nav aria-label="Page navigation example ">
                       <ul class="pagination justify-content-center mt-5">
                         <li class="page-item">
                           <a class="page-link" href="lista.html" aria-label="Previous">
@@ -480,134 +386,53 @@
                           </a>
                         </li>
                       </ul>
-                    </nav>
-         
-         
-
-
-</div>
-</div>
-</div>
-
-
- <div class="col-md-2">
-                    <div class="row">
-                      <aside>
-                        <div>
-
-                      
-                        <button type="button" class="btn btn-bordo" aria-expanded="false"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-share" viewBox="0 0 16 16">
-  <path d="M13.5 1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zM11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5zm-8.5 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zm11 5.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3z"/>
-</svg></button><br>
-
-<button type="button" class="btn btn-bordo" aria-expanded="false"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
-  <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-  <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
-</svg></button><br>
+                    </nav> 
 
 
 
+</section> </main>
 
-<p style="color:blue" class="mt-5">L'autore</p>
-<div class="card" style="width: 18rem;">
-  <img src="img/mars.jpeg" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Marsilio Ficino (1433-1499)</h5>
-    <p class="card-text">«L'anima si può chiamare il centro della natura»</p>
-    <a href="#" class="btn btn-primary">Opere di Marsilio Ficino</a>
-  </div>
-</div>
-
-<p><iframe width="560" height="315" src="https://www.youtube.com/embed/VB04KeFk-ZI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" width="10" height="10"></iframe></p>
-
-<p style="color:purple" class="pt-5">Potrebbe interessarti anche</p>
-<div class="col">
-                        <div class="card background-card">
-                          <img src="img/comm.jpeg" class="card-img-top" alt="...">
-                          <div class="card-body">
-                            <h3 class="card-title"><em>Commento</em> al <em>Simposio</em> di Platone, Marsilio Ficino</h3>
-                            <h5 class="card-text pt-2"><span style="color: brown">Istituzione fornitrice:</span> Bodleian Libraries, University of Oxford</h5>
-                            <h5 class="card-text pt-2"><span style="color: dodgerblue">Autore:</span> </span> <a href="http://viaf.org/viaf/120697563/" class="link-dark"  target="_blank" title="Pagina VIAF Marsilio Ficino"> Marsilio Ficino<sup>VIAF</sup></a></h5>
-                            <h5 class="card-text pt-2"><span style="color:yellow">Formato online: </span> testo</h5>
-                             <a href="#" class="btn btn-blue">Visualizza metadati</a>
-                          </div>
-                        </div>
-                      </div>
-
-
-
-
-                      </div>
-					</aside>
-
-				</div>
-				</div>
-
-</section>
-</main>
 
 <footer>
   <div class="container-fluid background-linear">
     <div class="container">
       <div class="row">
-
-        
-
-        <div class="col-md-4"><p>Iscriviti</p><form>
-  <div class="form-row">
-    <div class="form-group col-md-6">
-      <div class="form-group">
-    <label for="inputAddress">Nome</label>
-    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-  </div>
-  <label for="inputEmail4">Email</label>
-      <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
-    </div>
-  <div class="form-group col-md-6">
-      <label for="inputPassword4">Registra Password</label>
-      <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
-    </div>
-  </div>
-
-</form>
-</div>
-
-
-
-<div class="col-md-4">
-          <ul>
-          <img src="img/piet.png" width="100" title="Immagine pietra filosofale" alt="Immagine pietra filosofale">
-        <h4>Philosorix</h4>
-          <li>CC BY-ND</li>
-          
-        </ul>
-          
-        </div>
-
-        
-
       <div class="col-md-4">
-        <ul>
-          <h3>Contatti<h3>
-          <li>Cellulare: +39 3319189837</li>
-          <li>Telefono: 065293446</li>
-          <li>Email: ludovica.schifano@studio.unibo.it</li>
-          <li><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2845.9137934249825!2d11.348912550756431!3d44.49643317899887!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x477fd4bb93bc72fd%3A0xcb21126f200aa692!2sVia%20Zamboni%2C%20Bologna%20BO!5e0!3m2!1sit!2sit!4v1668899559431!5m2!1sit!2sit" width="100" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></li>
-        </ul>
+        <h3>Realizzazione del progetto</h3>
+          <p>Il progetto è stato realizzato da <strong title="Vai ai contatti">Ludovica Schifano</strong> per il corso <a href="https://www.unibo.it/it/didattica/insegnamenti/insegnamento/2021/423307" title="Vai al corso">Digital Humanities e Patrimonio Culturale</a> dell'<a href="https://www.unibo.it/it" title="Vai al sito dell'Alma Mater Studiorum">Alma Mater Studiorum Università di Bologna</a>, presso la Facoltà di Italianistica, tenuto dalla professoressa Francesca Tomasi.</p> 
         </div>
 
-      </div>
+        <div class="col-md-4 mt-5">
+          <img src="img/logounibo.jpeg">
+        </div>
+
+        <div class="col-md-4"><ul><h3>Contatti<h3>
+          <h6>Cellulare: 3357943937</h6>
+          <h6>Telefono: 0665700954</h6>
+          <h6>Email: ludovica.schifano@studenti.unibo.it</h6>
+          <li><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2845.9137934249825!2d11.348912550756431!3d44.49643317899887!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x477fd4bb93bc72fd%3A0xcb21126f200aa692!2sVia%20Zamboni%2C%20Bologna%20BO!5e0!3m2!1sit!2sit!4v1668899559431!5m2!1sit!2sit" width="300" height="100" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></li>
+          <br>
+          <li><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+          <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+        </svg>|<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+          <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+        </svg>|<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+          <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+        </svg></li>
+        </ul>
+        </div>
+     </div>
     </div>
   </div>
-<div class="container-fluid background-grey">
+  <div class="container-fluid background-grey">
     <p class="text-center">&copy; Copyright 2022 corso di Digital Humanities e Patrimonio Culturale, Università di Bologna</p></div>
-
-  
 
 </footer>
 
-
 <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  </body>
+
   </body>
 </html>
 
