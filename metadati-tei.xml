@@ -3,39 +3,80 @@
 		<fileDesc>
 			<titleStmt>
 				<title>De triplici vita</title>
-				<author ref="#MF">Marsilio Ficino</author>
+				<author xml:id="MF">Marsilio Ficino</author>
 			<respStmt>
-				<resp>marcatura realizzata da</resp>
-				<name xml:id="LS">Ludovica Schifano</name>
-				<funder>Alma Mater Studiorum</funder>
+				<resp>Editor</resp>
+				<name xml:id="LS">Ludovica Schifano</name>			
 			</respStmt>
 		</titleStmt>
 		<publicationStmt>
-			<publisher>Alma Mater Studiorum</publisher>
+			<publisher>Alma Mater Studiorum, Università degli studi di Bologna, Dipartimento di Italianistica</publisher>
                    <date>2022</date>
                    <availability>
 			<p>Questa risorsa digitale è liberamente accessibile per uso personale o scientifico. Ogni uso commerciale è vietato</p>
 			</availability>
 		</publicationStmt>
 		<sourceDesc>
-			<p>Trascritta dal De vita libri tres</p>
+			<bibl>
+				<title>De triplici vita</title>
+				<author>
+					<forename>Marsilio</forename>
+					 <surname>Ficino</surname>
+				</author>
+				<date>1970</date>
+				<publisher>Not identified</publisher>
+			</bibl>
 		</sourceDesc>
-	</fileDesc>
-</teiHeader>
-<text>
-	<front>
-		
-		<div type="tipologia">
-		<p/>
-	</div>
-</front>
-	
-<body>Viene qui presentato il codice di una delle opere tarde di <author id="#MF">Ficino</author>, <rs type="Opera" xml:id="DTV">De triplici vita</rs> (Tre libri sulla vita, 1489), dal Fondo Plutei della Biblioteca Medicea Laurenziana di Firenze. Il colophon sul verso del foglio 174 indica che il manoscritto fu terminato il <date>16 settembre 1489</date>. Precede quindi l'editio princeps (prima edizione a stampa), stampata a Firenze da Antonio Miscomini il 3 dicembre 1489. Il De triplici vita consiste di tre libri. <rs type="Opera" xml:id="Dvs">De vita sana</rs> (Sulla vita sana), dedicata al patrono di Ficino, Lorenzo il Magnifico, ha lo scopo di aiutare gli studiosi a raggiungere una vita sana attraverso una corretta alimentazione e abitudini. De vita longa (Sulla lunga vita), che Ficino dedica a Filippo Valori, notabile fiorentino e protetto di Lorenzo, fornisce analoghi consigli agli anziani. De vita coelitus comparanda (Sull'ottenere la vita dai cieli) approfondisce la possibilità di trarre forza sulla Terra dagli oggetti celesti. <author id="#MF">Ficino</author> dedicò questo libro al re Mattia Corvino d'Ungheria (1443-90).</body>
-<back>
-	
-<div type="tipologia">
-<p/>
-</div>
-</back>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>Il testo premiale è un documento filosofico che testimonia le riflessioni filosofiche di Ficino nella seconda metà del XV secolo</p>
+			</projectDesc>
+		</encodingDesc>
+		<profileDesc>
+			<listPers type="persona">
+				<persona xml:id="MF">
+					<persName>Marsilio Ficino</persName>					
+				</persona>
+				
+				<persona xml:id="LDM">
+					<persName>Lorenzo De Medici</persName>					
+				</persona>
+				<persona xml:id="GIO">
+					<persName>Giove</persName>
+				</persona>
+				<persona xml:id="BA">
+					<persName>Bacco</persName>
+				</persona>
+				<persona xml:id="SE">
+					<persName>Semele</persName>
+				</persona>
+				<persona xml:id="FE">
+					<persName>Febe</persName>
+				</persona>	
+			</listPers>
+			<Lang>
+				<lang ident="it">italiano</lang>
+			</Lang>
+		</profileDesc>
+</teiHeader>	
+<text xml:lang="it">
+<body>
+	<div1 type="dedica">
+	<head>
+	Proemio di <rs type="persona" xml:id="#MF">
+	Marsilio Ficino
+</rs>
+	 al <title>libro sulla vita</title>. Al  <rs type="persona" xml:id="#LDM"><persName>
+	 <surname type="attributo">magnifico</surname>
+	 <forename>Lorenzo</forename>
+	 <surname> De' Medici</surname>
+	  <surname type="apposizione">Salvatore della patria.</surname>
+  </persName></rs></head></div1>
+<p><name type="categoria persona">i poeti</name> cantano che <rs type="persona" xml:id="#MF"><persName>
+	<forename type="divinità">Bacco</forename>
+	<surname type="apposizione">sommo capo dei sacerdoti</surname>
+</persName></rs>, nacque due volte, forse per far capire che chi si appresta a diventare <name type="categoria persona">sacerdote</name> deve rinascere nei riti dell'iniziazione, o che la mente del <name type="categoria persona">sacerdote</name> ormai perfetto, dal profondo ricolma di Dio, fino all'ebbrezza sembra ormai rinata; o forse più semplicemente intendono dire che il <name type="categoria oggetto">vino</name>, figlio di <rs type="persona" xml:id="#MF"><persName>Bacco</persName></rs>, nasce una prima volta sulla vite, quasi <rs type="persona" xml:id="#SE"><persName>Semele</persName></rs>, nei grappoli maturi sotto <rs type="persona" xml:id="#FE"><persName>Febe</persName></rs>, e poi nasce una seconda volta dopo il fulmine della vendemmia come il vino puro nel tino, come dal femore di <rs type="persona" xml:id="#GIO"><persName>Giove</persName></rs>. Ma non è questo il momento di parlare dei sacri misteri, ora che stiamo piuttosto per porgere aiuto con mezzi naturali a coloro che sono indeboliti o malati. </p>
+</body>
 </text>
 </TEI>
